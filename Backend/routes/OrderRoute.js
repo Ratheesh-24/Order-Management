@@ -2,7 +2,7 @@ const express = require('express');
 const OrderRouter = express.Router();
 const Order = require('../models/Order');
 const Customer = require('../models/Customer');
-const OrderDetail = require('../models/OderDetail');
+const OrderDetail = require('../models/OrderDetails');
 
 //CRUD
 
